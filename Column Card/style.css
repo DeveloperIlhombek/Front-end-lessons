@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #F2F2F2;
+}
+.container {
+  width: 920px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.logo {
+  margin-top: 48px;
+  margin-left: 48px;
+}
+
+.item_title {
+  color: #fff;
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 35px 160px 25px 48px;
+}
+
+.item_text {
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 25px 47px 83px 47px;
+  opacity: 0.75;
+}
+
+.list_items {
+  display: flex;
+}
+
+.list_item {
+  width: 307px;
+  height: 500px;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.one {
+  background: #E28625;
+}
+
+.two {
+  background: #006971;
+}
+
+.three {
+  background: #004140;
+}
+
+.link {
+  border-radius: 25px;
+  background: #F2F2F2;
+  width: 146px;
+  height: 48px;
+  padding: 12px 35px;
+  margin: 83px 65px 48px 48px;
+  text-decoration: none;
+  color: #006971;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.one .link{
+  color: #E28625;
+}
