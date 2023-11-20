@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 760px;
+  flex-shrink: 0;
+  /* opacity: 0.3; */
+  background: #eedce2;
+}
+
+.menu {
+  margin: 15px 230px 60px 245px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 79px;
+  height: 79px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.list_item {
+  list-style: none;
+  padding: 20px;
+  color: #150101;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  /* opacity: 0.6; */
+}
+
+.list_item:hover {
+  color: #DC0048;
+  font-weight: 700;
+}
+
+.btn_top a {
+  border: 1px solid #FAFAFA;
+  border-radius: 5px;
+  background: #DC0048;
+  padding: 15px 50px;
+  text-decoration: none;
+  width: 165px;
+  height: 49px;
+  color: #FAFAFA;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Content section */
+.container {
+  margin-left: 250px;
+  margin-right: 170px;
+}
+
+.hero_content {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 114px;
+}
+
+.content_span {
+  color: #0F0101;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  margin-bottom: 6px;
+}
+
+.content_title {
+  width: 657px;
+  height: 130px;
+  flex-shrink: 0;
+  color: #0F0101;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 57.33px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 120.5%;
+  opacity: 0.9;
+  margin-bottom: 35px;
+}
+
+.pink {
+  color: #D23166;
+}
+
+.content_text {
+  color: #0F0101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.6;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.content {}
+
+.ice_cream {
+
+  width: 610px;
+  height: 650px;
+  flex-shrink: 0;
+  fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.delivery {
+  width: 100%;
+  height: 400px;
+}
+
+.delivery_list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+}
+
+.delivery_item {
+  width: 250px;
+  height: 200px;
+  border-radius: 7px;
+  list-style: none;
+  background: #fff;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+  margin: 100px 0px;
+}
+
+.delivery_item:hover {
+  background: #f7ebef;
+}
+
+.delivery_icon {
+  width: 45px;
+  height: 43.35px;
+  margin: 34px 100px;
+}
+
+.delivery_title {
+  color: #000;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.delivery_text {
+  width: 198px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Section for See Details */
+.see_details {
+  width: 100%;
+  height: 544.495px;
+  background: #F8EDF0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.details_content {
+  width: 442px;
+  height: 256.705px;
+  align-items: center;
+  margin-top: 140px;
+  align-items: center;
+}
+
+.details_title {
+  width: 349px;
+  height: 98.27px;
+  color: #150101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 44.2px;
+  font-weight: 600;
+  line-height: 110.5%;
+  margin: 0px 170px 110px 0px;
+}
+
+.details_img {
+  width: 544px;
+  height: 544px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+/* Our product */
+.our_product {
+  width: 100%;
+}
+
+.product_title {
+  color: #150101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 44.2px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.product_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  list-style: none;
+}
+
+/* font_weight uchun 500 ligini olishim kk */
+.product_list_item {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.product_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.second {
+  flex-direction: row-reverse;
+}
+
+.product_title {
+  color: #000;
+  text-align: right;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.two {
+  text-align: right;
+}
+
+.product_text {
+  width: 454px;
+  height: 67px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.product_span {
+  width: 71px;
+  height: 27px;
+  color: #000;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 39px;
+}
+
+.product_img {
+  width: 580px;
+  height: 415px;
+  border-radius: 10px;
+}
+
+
+.delated {
+  width: 58px;
+  height: 27px;
+  color: #000;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration-line: line-through;
+  margin-bottom: 50px;
+}
+
+.pro a {
+  background: #D64374;
+}
+
+.pro {
+  margin-top: 35px;
+}
+
+/* Feedback section */
+
+.feedback {
+  background-color: #fff;
+}
+
+.feedback_section {
+  display: flex;
+}
+
+.commenter_img {
+  width: 59px;
+  height: 58px;
+  border-radius: 59px;
+  margin-bottom: 46px;
+  margin-left: 100px;
+  margin-top: 50px;
+  background: url(<path-to-image>), lightgray -32.841px -1.06px / 188.2% 125.529% no-repeat;
+}
+
+.commenter {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.commenter_data {
+  margin-right: 150px;
+}
+
+.commenter_name {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.commenter_country {
+  width: 77px;
+  height: 15px;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.comment_text {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 350px;
+  height: 60px;
+}
+
+.comment_icon {
+  display: inline-flex;
+  margin-bottom: 50px;
+  width: 10.968px;
+  height: 10px;
+}
+
+.close {
+  margin-top: 63px;
+}
+
+.comments {
+  width: 322px;
+  height: 53px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.subscriber {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+  margin: 25px 200px 50px 50px;
+  width: 250px;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+}
+
+.subscriber_item {
+  width: 35px;
+  height: 35px;
+}
+
+.subscriber_main {
+  width: 57.812px;
+  height: 57.812px;
+}
+
+.feedback_image {
+  width: 564px;
+  height: 442px;
+}
+
+/* Download section */
+.download {
+  width: 100%;
+  height: 678px;
+  background: #F8EDF0;
+}
+
+.download_contents {
+  display: flex;
+}
+
+.icon_download {
+  width: 14px;
+  height: 14px;
+}
+
+.download_item {
+  display: flex;
+  align-items: center;
+  margin-right: 450px;
+}
+
+.play_store {
+  display: flex;
+}
+
+.download_title {
+  width: 621px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44.2px;
+  font-weight: 500;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.download_text {
+  width: 607px;
+  height: 60px;
+  color: #0F0101;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  margin-bottom: 31px;
+}
+
+.download_img {
+  margin-top: 90px;
+}
+
+.icon_download {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background: #FFF;
+  padding: 9px 7px;
+  margin-bottom: 10px;
+  margin-left: 75px;
+}
+
+.icon_name {
+  margin-left: 10px;
+}
+
+.play_store {
+  margin: 40px 250px 150px 100px;
+}
+
+.google {
+  margin-right: 30px;
+}
+
+/* Question */
+.question {
+  width: 100%;
+  height: 545px;
+
+}
+
+.question_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.question_title {
+  width: 522px;
+  height: 123px;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  margin: 190px 500px 30px 400px;
+}
+
+.form {
+  border-radius: 5px;
+  background: #FAFAFA;
+  width: 637px;
+  height: 74px;
+  margin-right: 0;
+}
+
+.send {
+  margin-left: 0;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  width: 57px;
+  height: 18px;
+  background: #D64374;
+  border-radius: 5px;
+  padding: 20px 90px 50px 46px;
+}
+
+footer {
+  width: 100%;
+  height: 381px;
+  background: #0A0808;
+}
+
+/* Footer */
+.footer_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+
+.link_text {
+  width: 207px;
+  height: 47px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 139.687%;
+  letter-spacing: 0.12px;
+  margin-bottom: 28px;
+}
+
+.media_title {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: left;
+}
+
+.newsletter_title {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+
+.email {
+  width: 200px;
+  height: 40px;
+}
+
+.nav_column {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 150px 100px 100px 35px;
+
+}
+
+.subs_btn {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #D23166;
+  padding: 8px 15px 12px;
+}
+
+.nav_column_item {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.details_site {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 150px 100px 100px 25px;
+}
+
+.details_item {
+  margin-bottom: 15px;
+  list-style: none;
+}
+.footer_logo{
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+.media_logo {
+  width: 150px;
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.media_item {
+  width: 15px;
+  height: 15px;
+}
+.bills{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style:none;
+  width: 120px;
+  margin-top: 10px;
+  margin-right: 210px;
+
+}
