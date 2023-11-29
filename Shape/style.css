@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3d3b3b;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 1500px;
+  height: 740px;
+  background-color: #333;
+}
+
+.bir {
+  width: 140px;
+  height: 140px;
+  background-color: rgb(202, 132, 3);
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  left:680px;
+  top: 440px;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+}
+
+.ikki{
+  width: 220px;
+  height: 220px;
+  background-color: rgb(247, 247, 7);
+  border-top-left-radius: 100%;
+  position: absolute;
+  left: 640px;
+  top: 260px;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+}
+.uch{
+  width: 220px;
+  height: 220px;
+  background-color:#fff;
+  border-top-right-radius: 100%;
+  position: absolute;
+  left: 860px;
+  top: 260px;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+}
+.tort{
+  width: 220px;
+  height: 220px;
+  background-color:rgb(176, 183, 183);
+  border-bottom-right-radius: 100%;
+  position: absolute;
+  left: 860px;
+  top: 480px;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+}
+.besh{
+  position: absolute;
+  left:900px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  width: 300px; 
+  height: 600px; 
+  border-radius: 0 300px 300px 0;
+  background-image: linear-gradient(rgb(248, 41, 76),rgb(250, 163, 3));
+}
+.olti{
+  width: 90px;
+  height: 90px;
+  background-color:#000;
+  border-radius: 100%;
+  position: absolute;
+  left: 750px;
+  top: 280px;
+  z-index: 5;
+}
