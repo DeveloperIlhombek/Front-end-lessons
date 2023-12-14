@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1a1a36;
+}
+.container{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background-color: #1a1a36;
+  margin:200px auto;
+  transform: rotate(225deg);
+}
+
+.circle{
+  position: absolute;
+}
+.yetti{
+  width: 250px;
+  height: 250px;
+  border-bottom-right-radius: 250px;
+  z-index: 1;
+  animation: yetti 3s linear 2s infinite forwards;
+}
+@keyframes yetti {
+  0%{
+    opacity: 0.05;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.05;
+  }
+}
+.ikki{
+  width: 218px;
+  height: 218px;
+  border-bottom-right-radius: 218px;
+  z-index: 2;
+}
+.uch {
+  width: 186px;
+  height: 186px;
+  border-bottom-right-radius: 186px;
+  z-index: 3;
+  animation: uch 3s linear 1s infinite forwards;
+}
+@keyframes uch {
+  0%{
+    opacity: 0.05;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.05;
+  }
+}
+
+.tort{
+  width: 154px;
+  height: 154px;
+  border-bottom-right-radius: 154px;
+  z-index: 4;
+}
+.besh{
+  width: 122px;
+  height: 122px;
+  border-bottom-right-radius: 122px;
+  z-index: 5;
+  animation: besh 3s linear infinite forwards;
+}
+@keyframes besh {
+  0%{
+    opacity: 0.05;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.05;
+  }
+  
+}
+
+.olti{
+  width: 90px;
+  height: 90px;
+  border-bottom-right-radius: 90px;
+  z-index: 6;
+}
+.bir{
+  width: 58px;
+  height: 58px;
+  background-color: #fff;
+  border-bottom-right-radius: 58px;
+  z-index: 7;
+}
+.circle:nth-child(2n){
+  background-color: #1a1a36;
+}
+.circle:nth-child(2n+3){
+  background-color: #858484;
+  opacity: 0.05;
+}
+

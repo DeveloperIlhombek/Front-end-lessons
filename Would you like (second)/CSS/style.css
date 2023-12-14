@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #353434;
+  overflow: hidden;
+}
+
+.position {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  top: 300px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(198, 191, 191);
+  transition: all 3s linear;
+}
+
+.title {
+  text-align: center;
+  padding: 34px 0;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: 'Open-sans', sans-serif;
+}
+
+.chiziq {
+  position: fixed;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+  font-size: 70px;
+  left: -1px;
+  transition: all 3s linear;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  margin-left: 0;
+  background-color: rgb(198, 191, 191);
+  transition: all 3s linear;
+}
+
+.position:hover .line {
+  margin-left: 100%;
+}
+
+.position:hover .chiziq {
+  left: 100%;
+}
